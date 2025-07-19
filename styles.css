@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Intel One Mono", sans-serif, serif;
+}
+
+body {
+    background-color: #3f384c;
+}
+
+nav {
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    border-bottom: 1px solid #00000085;
+    color: white;
+    padding: 10px 10px;
+    font-family: "Nunito", sans-serif, serif;
+    font-size: 13px;
+    background-color: #3f384c;
+}
+
+nav .account, nav .logo {
+    text-decoration: none;
+    color: white;
+}
+nav .account:hover, nav .logo:hover {
+    color: grey;
+}
+nav .account {
+    float: right;
+    padding-right: 20px;
+}
+
+
+.logo-orange {
+    background-color: orange;
+    border-radius: 7px;
+    color: #3f384c;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#breadcrumb {
+    background-color: palevioletred;
+}
+
+#breadcrumb li {
+    display: inline;
+}
+#breadcrumb li+li::before {
+    content: "/ ";
+    color:black;
+    font-weight: bold;
+}
+
+#breadcrumb a {
+    color: #3f384c;
+    text-decoration: none;
+}
+.grid-opt {
+    text-align: center;
+}
+
+.grid-opt li {
+    display: inline;
+}
+.grid-opt li a{
+    display: inline-block;
+    background-color: orange;
+    border-radius: 16px;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 130px;
+    color: #3f384c;
+    text-decoration: none;
+}
+
+section {
+    background-color: white; 
+    padding: 15px; 
+    display: inline-block;
+    border: 2px inset white;
+    margin: 10px;
+    font-size: 12px;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.intel-font {
+    font-family: "Intel One Mono";
+}
+
+.nunito-font {
+    font-family: "Nunito";
+}
+
+.times-font {
+    font-family: "Times New Roman";
+}
+
+.pfp {
+    width:200px;
+    height: 200px;
+    border-radius: 200px;
+    margin: 20px;
+    float: right;
+}
+
+.BUT {
+    display: inline-block;
+    background-color: orange;
+    border-radius: 45px;
+    border: rgb(176, 115, 0) solid;
+    color:black;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.BUT:hover {
+    box-shadow: 0 5px rgb(176, 115, 0);
+}
+
+.BUT:active {
+    background-color: black;
+    color:orange;
+}

@@ -47,6 +47,7 @@ nav .account {
 
 #breadcrumb {
     background-color: palevioletred;
+    padding-left: 5px;
 }
 
 #breadcrumb li {
@@ -54,7 +55,7 @@ nav .account {
 }
 #breadcrumb li+li::before {
     content: "/ ";
-    color:black;
+    color:#3f384c;
     font-weight: bold;
 }
 

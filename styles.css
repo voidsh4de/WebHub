@@ -125,6 +125,7 @@ section {
     text-decoration: none;
     padding: 5px;
     margin-top: 10px;
+    transition: .3s;
 }
 
 .BUT:hover {
@@ -134,4 +135,8 @@ section {
 .BUT:active {
     background-color: black;
     color:orange;
+}
+
+.scroll {
+    overflow-y: scroll;
 }
